@@ -4,8 +4,204 @@
     <head>
         <meta charset="utf-8">
         <title>Stefan Stankovic</title>
+        <style type="text/css">
+        
+        body {
+            background-color: #bceecb;
+        }
+        a.nodec { 
+            text-decoration: none;
+        }
+        .separator{
+            color: #000000;
+            font-weight: 700;
+            margin: 0 5px;
+        }
+        .heder{
+            background-color:rgb(121, 233, 205);
+            font-size:20pt ;
+            text-align: center;
+            color: #000000;
+            padding: .2em;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .homeboi{
+            color:maroon;
+        }
+        ul.a{
+            list-style-type: armenian;
+        }
+        .text {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15pt;
+            color: rgb(39, 70, 70);
+            font-weight: bold;
+            font-style: italic;
+        }
+        .text1{
+            font-size: 15pt;
+            color:rebeccapurple;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: inherit;
+        }
+        
+        </style>
     </head>
     <body>
-        
+        <header class="heder">
+                <a href="#home" class="nodec">Дома</a><span class="separator"> |</span>
+                <a href="#favourite" class="nodec">Омилени работи</a><span class="separator"> |</span>
+                <a href="#galery" class="nodec">Галерија</a><span class="separator"> |</span>
+                <a href="#blog" class="nodec">Блог</a><span class="separator"> |</span>
+                <a href="#about" class="nodec">Анкета</a><span class="separator"> |</span>
+                <a href="#contact" class="nodec">Контакт</a>
+        </header>
+        <section id="home">
+            <h3 class="text">За мене</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>
+                            <img src="matura.jpg" width="140" height="200" alt="Matura slika" class="hover">
+                        </th>
+                        <th class="homeboi">
+                            Стефан Станковиќ, студент на ФЕИТ, смер Компјутерски технологии и инженерство, 3та година.<br>
+                            Имам 21 година и освен комјутерите имам и многу други интересни сфери на интерес. Ме интересира<br>
+                            внатрешниот дизајн и секаква изработка на мебел од дрво.
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+        <hr>
+        <section id="favourite">
+            <h3 class="text">Моите омилени работи</h3>
+            <details>
+                <summary class="text1">Музика</summary>
+                <ul>
+                    <li>Pop</li>
+                    <li>Rock</li>
+                    <li>House music</li>
+                    <li>Techno music</li>
+                </ul>
+            </details>
+            <details>
+                <summary class="text1">Јадење</summary>
+                <ul>
+                    <li>Месо</li>
+                    <li>Пица</li>
+                    <li>Тестенини</li>
+                </ul>
+            </details>
+            <details>
+                <summary class="text1">Филмови</summary>
+                <p>
+                    <figure>
+                        <img src="departed.jpg" width="100" height="150" alt="Departed">
+                        <figcaption><a href="https://www.imdb.com/title/tt0407887/" class="nodec">Departed (2016)</a></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="prisoners.jpg" width="100" height="150" alt="Prisoners">
+                        <figcaption><a href="https://www.imdb.com/title/tt1392214/" class="nodec">Prisoners (2013)</a></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="heat.jpg" width="100" height="150" alt="Heat">
+                        <figcaption><a href="https://www.imdb.com/title/tt0113277/" class="nodec">Heat (1995)</a></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="shutter.jpg" width="100" height="150" alt="Shutter Island">
+                        <figcaption><a href="https://www.imdb.com/title/tt1130884/" class="nodec">Shutter Island (2010)</a></figcaption>
+                    </figure>
+                </p>
+            
+            </details>
+        </section>
+        <hr>
+        <section id="galery">
+            <h3 class="text">Галерија</h3>
+            <p><img src="galery1.jpg" width="300" height="150" alt="galery1">
+                <img src="galery2.jpg" width="300" height="150" alt="galery2">
+                <img src="galery3.jpg" width="300" height="150" alt="galery3">
+                <img src="galery4.jpg" width="300" height="150" alt="galery4">
+                <img src="galery5.jpg" width="300" height="150" alt="galery5">
+                <img src="galery6.jpg" width="300" height="150" alt="galery6">
+                <img src="galery7.jpg" width="300" height="150" alt="galery7">
+                <img src="galery8.jpg" width="300" height="150" alt="galery8">
+            </p>
+        </section>
+        <hr>
+        <section id="blog">
+            <h3 class="text">Блог</h3>
+            <form method = "post" action = "#">
+                <p><label>Наслов: <input type="text" size="30"></label></p>
+                <p><label><textarea rows="10" cols="50" placeholder="Enter text"></textarea></label></p>
+                <p>
+                    <label>Датум: 
+                       <input type = "date" />
+                    </label>
+                 </p>
+                 <p><label>
+                    Име: <br><input name="name" type="text" size="30">
+                 </label></p>
+                 <p>
+                     <label>
+                        Презиме: <br><input type="text" size="30"></label></p>
+                     </label>
+                 </p>
+                 <p>
+                    <input type = "submit" value = "Submit">
+                    <input type = "reset" value = "Clear">
+                 </p>
+            </form>
+        </section>
+        <hr>
+        <section id="about">
+            <h3 class="text">Тука можете да оставите коментар за мојата веб страна</h3>
+            <form method = "post" action = "#">
+                <p><label>
+                    Име: <input name="name" type="text" size="30">
+                </label>
+                </p>
+                <p><label>Презиме: <input type="text" size="30"></label></p>
+                <p>
+                    <label>Email: 
+                       <input type = "email" placeholder = "name@domain.com" 
+                          required >
+                    </label>
+                 </p>
+                <p><label>Коментар: <textarea type="text" rows="3" cols="30" placeholder="Enter comment"></textarea></label></p>
+                <p>
+                    <label>Оцена: 
+                        <select name = "rating">
+                            <option>Одлично</option>
+                            <option>Многу добро</option>
+                            <option>Добро</option>
+                            <option>Лошо</option>
+                         </select>
+                    </label>
+                </p>
+                <p>
+                    <label>Датум: 
+                       <input type = "date" />
+                    </label>
+                 </p>
+                <p>
+                    <input type = "submit" value = "Submit">
+                    <input type = "reset" value = "Clear">
+                 </p>
+            </form>
+        </section>
+        <hr>
+        <section id="contact">
+            <h4 class="text">На следните линкови можете да пристапите до моите социјални мрежи</h4>
+            <p><a href="https://www.instagram.com/s.stankovic99/" class="nodec">
+                <img src="instagram.jpg" width="40" height="40" alt="instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=100007561634281" class="nodec">
+                <img src="facebook.png" width="40" height="40" alt="facebook"></a>
+            </p>
+        </section>
+        <footer>
+            <h6>&copy; 2020 by Stefan Stankovic</h6>
+        </footer>
     </body>
 </html>
