@@ -1,0 +1,179 @@
+body{
+    margin: 0%;
+}
+.navbar {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.navbar a {
+  margin-left: 10px;
+  float:left;
+  display: block;
+  color: #24a4ad;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: double;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.homeslika{
+  margin-top: 100px;
+  margin-left: 90px;
+  margin-right: 100px;
+}
+.galerija{
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 10px;
+}
+
+.homeboi{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #24a4ad;
+  padding: 120px;
+}
+.tabela{
+  padding: 100px;
+  margin-top: 50px;
+}
+body {
+  background-image: url("sliki/dd.jpg");
+  background-attachment: fixed;
+  margin: 0%;
+}
+.survey1{
+  margin-top: 70px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #797979;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=text], input[type=date],select , textarea[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=reset] {
+  width: 100%;
+  background-color: #ee312a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact1{
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #061b1d;
+}
+.nodec{
+  text-align: center;
+  margin-top: 300px;
+}
+.hh{
+  margin-right: 30px;
+}
+details > summary{
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-right: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color:rgb(0, 0, 0);
+  color: #24a4ad;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+details > p{
+  margin-left: 70px;
+}
+.fav1{
+  margin-top: 70px;
+}
+figure{
+  margin-left: 70px;
+  display: inline-block;
+}
+figcaption{
+  text-align: center;
+}
+.tekst{
+  color: #24a4ad;
+  font-size: 20px;
+  text-decoration: none;
+}
+.hhh{
+  display: inline-block;
+  text-align: center;
+}
+.jj{
+  text-align: center;
+}
+
+.j2{
+  text-align: center;
+  color: #24a4ad;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.j3{
+  display: inline-flex;
+  margin: 70px 50px 40px 50px;
+}
+.blognas{
+  text-align: center;
+  color: #24a4ad;
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 100px;
+}
+.blogtekst{
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #24a4ad;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.blog1{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.coment1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #24a4ad;
+  font-size: 25px;
+}
