@@ -16,11 +16,16 @@
           </div>
           <div class="survey1">
             <form method = "post" action = "#">
-                <input name="name" type="text" placeholder="Name">
-                <input type="text" placeholder="Surname">
-                <input type = "text" placeholder = "name@domain.com"  required >
-                <textarea type="text" rows="3" cols="30" placeholder="Enter comment"></textarea>
-                <select name = "rating">
+                <p class="survey2">Name
+                <input name="name" type="text" placeholder="Name" required></p>
+                <p class="survey2">Surname
+                <input type="text" placeholder="Surname" required></p>
+                <p class="survey2">E-mail
+                <input type = "text" placeholder = "name@domain.com"  required ></p>
+                <p class="survey2">Comment
+                <textarea type="text" rows="5" cols="30" placeholder="Enter comment" required></textarea></p>
+                <p class="survey2">Rating
+                <select name = "rating" required>
                     <option>10</option>
                     <option>9</option>
                     <option>8</option>
@@ -31,8 +36,9 @@
                     <option>3</option>
                     <option>2</option>
                     <option>1</option>
-                </select>
-                <input type = "date">
+                </select></p>
+                <p class="survey2">Date
+                <input type = "date"></p>
                 <input type = "submit" value = "Submit">
                 <input type = "reset" value = "Clear">
             </form>

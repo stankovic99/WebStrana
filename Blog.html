@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Stefan Stankovic</title>
         <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <script src = "blog.js"></script>
     </head>
     <body>
         <div class="navbar">
@@ -14,6 +15,7 @@
             <a href="Survey.html">Survey</a>
             <a href="Contact.html">Contact</a>
           </div>
+          
           <div>
               <p class="blognas">MOTOGP</p>
               <p class="blogtekst">Grand Prix motorcycle racing is the premier class of motorcycle road racing events held on road 
@@ -39,14 +41,21 @@
                 In the top-flight series, Agostini holds the title record with eight, followed by active riders Valentino Rossi 
                 with seven and Marc Márquez with six. As of 2019, Rossi holds the record for most top-flight race wins with 89.
             </p>
+            <p class="blogime">
+              Stefan Stankovic
+            </p>
+            <p class="blogime">
+              12/14/2020, 4:14:29 PM
+            </p>
           </div>
+          <p id="tuka"></p>
           <div class="blog1">
-              <p><input type="text" placeholder="Title"></p>
-              <p>
-                <textarea type="text" rows="20" cols="3000" placeholder="Enter text"></textarea>
-                <input type = "date">
-                <input type="submit">
-              </p>
-          </div>
+            <p><input type="text" id="naslov" placeholder="Title"></p>
+            <p>
+              <textarea type="text" rows="10" cols="3000" placeholder="Enter text" id="tekst"></textarea>
+              <input type="text" id="ime" placeholder="Name..">
+              <input type="submit" id="potvrda">
+            </p>
+        </div>
     </body>
 </html>
